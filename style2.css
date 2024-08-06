@@ -1,0 +1,62 @@
+body{
+    background-color: skyblue
+    
+    
+}
+
+header{
+    background-color: gray;
+    display: inline-block;
+    width: 98.5vw
+
+}
+
+h1{
+
+    text-align: center;
+
+}
+
+
+
+#Link{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1%
+ 
+ }
+ 
+ .Header_Div{
+
+    flex-direction: column;
+
+
+}
+
+
+ a{
+    
+    margin: 2px;
+
+}
+ 
+ div{
+     
+     text-align: center;
+     display: flex;
+     justify-content: space-between;
+     
+     /* background-color: gray;
+     display: inline-block; */
+ }
+ 
+
+img{
+    
+    width: 240px
+
+    
+
+}
+
+
