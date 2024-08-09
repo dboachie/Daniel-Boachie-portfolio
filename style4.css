@@ -4,12 +4,18 @@ body{
     
 }
 
+
 header{
     background-color: gray;
     display: inline-block;
     width: 98.5vw
 
 }
+
+@media (max-width:600px){
+    
+
+} 
 
 h1{
 
@@ -22,7 +28,7 @@ h1{
 #Link{
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 1%
+    margin-bottom: 1% !important;
  
  }
  
@@ -33,8 +39,7 @@ h1{
 
 }
 
-
- a{
+a{
     
     margin: 2px;
 
@@ -51,12 +56,20 @@ h1{
  }
  
 
-img{
-    
-    width: 240px
+#message{
 
-    
+    height: 70px;
+    width: 750px;
 
-}
+    /* align-self: start; */
+
+    vertical-align: top;
 
 
+ }
+
+ input:nth-of-type(even){
+
+
+
+ }

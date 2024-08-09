@@ -5,6 +5,19 @@ body{
     
 }
 
+
+
+@media (max-width:600px){
+
+    body{
+
+
+        background-color: white;
+    }
+    
+    
+} 
+
 header{
     background-color: gray;
     display: inline-block;
@@ -47,6 +60,13 @@ a{
     justify-content: flex-end; */
     margin: 2px;
 
+
+}
+
+a:hover{
+
+    color: black;
+
 }
 
 div{
@@ -76,4 +96,20 @@ h2{
 h3{
 
     text-align: center;
+}
+
+
+header > div{
+
+    color: blue;
+
+}
+
+
+.large{
+    
+    width: 240px
+
+    
+
 }
